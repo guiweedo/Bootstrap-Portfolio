@@ -1,0 +1,71 @@
+.body {
+    background-image: url("../images/repeated-square-dark.png"); 
+    background-color: black;
+}
+.navbar-brand {
+    font-size: 40px;
+}
+
+.nav-item {
+padding-left: 50px;
+padding-bottom: 10px;
+color: white;
+font-size: 25px;
+}
+
+footer {
+    width: 100%;
+    Height: auto;
+    font-size: 18px;
+    color: rgb(224, 224, 224);
+}
+
+.container {
+    background-color: rgb(236, 236, 236);
+    border: 4px solid rgb(153, 153, 153);
+    font-size: 23px;
+    text-align: left;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.about {
+    font-size: 47px;
+    border-bottom: 3px solid gray;
+    width: 100%;
+}
+
+#portfolio_image {
+    margin: 10px 0 0 0;
+    border: 5px solid rgb(82, 8, 8);
+}
+
+.card {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    height: 15%;
+  }
+
+.portfolio-img{
+    width: 350px;
+    height: auto;
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    #portfolio-image {
+        width: 200px;
+        height: auto;
+    }
+}
+
